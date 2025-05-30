@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jemimah Praisy - Portfolio</title>
+  <link rel="icon" href="URK24AI1088.jpg" />
+  <style>
+    /* ====== Global Styles ====== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #fffaf0;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    /* ====== Navbar ====== */
+    nav {
+      background-color: navy;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 1.2rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      color: gold;
+      text-decoration: underline;
+    }
+
+    /* ====== Hero Section ====== */
+    .hero {
+      background: linear-gradient(to right, #0077b6, #023e8a);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #caf0f8;
+    }
+
+    /* ====== Sections ====== */
+    section {
+      padding: 2.5rem 2rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #0077b6;
+      text-align: center;
+    }
+
+    .about, .education, .skills, .contact {
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .skills ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .contact-info p {
+      margin: 0.3rem 0;
+    }
+
+    /* ====== Footer ====== */
+    footer {
+      background-color: navy;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* ====== Responsive Design ====== */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Jemimah Praisy</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="URK24AI1088.jpg" alt="Profile Photo">
+    <h1>Jemimah Praisy</h1>
+    <p>Aspiring AI & Data Science Engineer | Python, AI, Analytics Enthusiast</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Jemimah Praisy, a passionate tech enthusiast focused on AI, Data Science, and real-world automation. I love to explore and build projects using Python, ML, and IoT to create meaningful impact.</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech - Artificial Intelligence and Data Science</strong><br>Karunya Institute of Technology and Sciences, Coimbatore</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, C, HTML, CSS</li>
+      <li>Data Analytics & Visualization</li>
+      <li>Machine Learning & AI Models</li>
+      <li>IoT Automation Projects</li>
+      <li>Cloud Tools: Firebase, Blynk, AWS</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p><strong>Email:</strong> jjemimahpraisy@gmail.com</p>
+      <p><strong>Phone:</strong> +91 95434 83252</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/Jemimah95434" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jemimah Praisy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
